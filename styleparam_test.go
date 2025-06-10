@@ -19,7 +19,7 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/oapi-codegen/runtime/types"
+	"github.com/sergioa/runtime/types"
 	"github.com/stretchr/testify/assert"
 )
 
@@ -692,7 +692,7 @@ func TestStyleParam(t *testing.T) {
 
 }
 
-// Issue 37 - https://github.com/oapi-codegen/runtime/issues/37
+// Issue 37 - https://github.com/sergioa/runtime/issues/37
 func TestIssue37(t *testing.T) {
 	styles := []string{
 		"simple",

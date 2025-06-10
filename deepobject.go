@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/oapi-codegen/runtime/types"
+	"github.com/sergioa/runtime/types"
 )
 
 func marshalDeepObject(in interface{}, path []string) ([]string, error) {

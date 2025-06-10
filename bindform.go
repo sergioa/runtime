@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/oapi-codegen/runtime/types"
+	"github.com/sergioa/runtime/types"
 )
 
 const tagName = "json"
